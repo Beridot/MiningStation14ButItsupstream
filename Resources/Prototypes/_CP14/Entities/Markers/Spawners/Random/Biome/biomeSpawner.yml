@@ -18,13 +18,13 @@
     key: CP14BiomeSpawner
 
 - type: entity
-  id: CP14BiomeSpawnerCave
+  id: CP14BiomeSpawnerAsteroid
   parent: CP14BaseBiomeSpawner
-  suffix: Cave
+  suffix: Asteroid
   components:
   - type: Sprite
     layers:
       - state: cave
       - state: frame
   - type: CP14BiomeSpawner
-    biome: Caves
+    biome: Asteroid

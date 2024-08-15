@@ -597,7 +597,7 @@
       noise:
         seed: 1
         noiseType: OpenSimplex2
-        frequency: 1
+        frequency: 0.4
       allowedTiles:
         - FloorAsteroidSand
       entities:
@@ -608,8 +608,24 @@
         - FloraStalagmite5
         - FloraStalagmite6
     - !type:BiomeEntityLayer
-      threshold: -0.6
-      invert: true
+      threshold: 0.75
+      noise:
+        seed: 1
+        noiseType: OpenSimplex2
+        frequency: 0.7
+      allowedTiles:
+        - FloorAsteroidSand
+      entities:
+        - SpawnMobBearSalvage
+        - SpawnMobCobraSalvage
+        - SpawnMobSpiderSalvage
+        - SpawnMobKangarooSalvage
+        - SpaceTickSpawner
+        - SpawnMobCarp
+        - SpawnMobShark
+    - !type:BiomeEntityLayer
+      threshold: -0.22
+      invert: false
       noise:
         seed: 0
         noiseType: Perlin
