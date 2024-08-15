@@ -42,3 +42,18 @@
         - type: StationJobs
           availableJobs:
             ChiefEngineer: [ -1, -1 ]
+
+- type: gameMap
+  id: ProcGenTest
+  mapName: ProcGenTest
+  mapPath: /Maps/Test/procgentest.yml
+  minPlayers: 0
+  stations:
+    ProcGenTest:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "ProcGenTest"
+        - type: StationJobs
+          availableJobs:
+            Passenger: [ -1, -1 ]
