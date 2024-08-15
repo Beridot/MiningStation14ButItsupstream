@@ -18,18 +18,6 @@
     key: CP14BiomeSpawner
 
 - type: entity
-  id: CP14BiomeSpawnerGrassland
-  parent: CP14BaseBiomeSpawner
-  suffix: Grassland
-  components:
-  - type: Sprite
-    layers:
-      - state: grass
-      - state: frame
-  - type: CP14BiomeSpawner
-    biome: CP14GrasslandTestResult
-
-- type: entity
   id: CP14BiomeSpawnerCave
   parent: CP14BaseBiomeSpawner
   suffix: Cave
@@ -39,4 +27,4 @@
       - state: cave
       - state: frame
   - type: CP14BiomeSpawner
-    biome: CP14CavesGeneric
+    biome: Caves
