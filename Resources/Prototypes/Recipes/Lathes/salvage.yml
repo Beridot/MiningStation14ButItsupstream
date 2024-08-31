@@ -46,3 +46,12 @@
     Plastic: 200
     Silver: 200
     Diamond: 100
+
+- type: latheRecipe
+  id: ClothingNeckBodycam
+  result: ClothingNeckBodycam
+  completetime: 2
+  materials:
+    Steel: 200
+    Plastic: 200
+    Glass: 100
