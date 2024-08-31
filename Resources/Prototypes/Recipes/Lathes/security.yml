@@ -710,3 +710,40 @@
      Plastic: 1000
      Plasma: 500
      Glass: 500
+
+- type: latheRecipe
+  id: MagazineMagnumSubMachineGun
+  result: MagazineMagnumSubMachineGun
+  completetime: 5
+  materials:
+    Steel: 350
+
+- type: latheRecipe
+  id: PlasmaShell
+  result: PlasmaShell
+  completetime: 2
+  materials:
+    Plasma: 10
+    Steel: 10
+
+- type: latheRecipe
+  id: MagazinePlasmaRifle
+  result: MagazinePlasmaRifleEmpty
+  completetime: 5
+  materials:
+    Steel: 400
+
+- type: latheRecipe
+  id: MagazinePlasmaRifleFilled
+  result: MagazinePlasmaRifle
+  completetime: 5
+  materials:
+    Plasma: 140
+    Steel: 540
+
+- type: latheRecipe
+  id: ShellShotgun
+  result: ShellShotgun
+  completetime: 2
+  materials:
+    Steel: 20

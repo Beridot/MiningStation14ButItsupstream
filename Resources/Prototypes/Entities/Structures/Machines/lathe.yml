@@ -119,87 +119,35 @@
     unlitRunningState: unlit-building
     staticRecipes:
       - Wirecutter
-      - Igniter
-      - Signaller
       - Screwdriver
       - Welder
       - Wrench
       - CrowbarGreen
       - Multitool
-      - NetworkConfigurator
       - SprayPainter
-      - FlashlightLantern
       - CableStack
       - CableMVStack
       - CableHVStack
       - HandheldGPSBasic
       - TRayScanner
-      - AirTank
       - GasAnalyzer
-      - UtilityBelt
-      - Fulton
-      - FultonBeacon
-      - Pickaxe
-      - ModularReceiver
-      - AppraisalTool
-      - SheetRGlass
-      - Beaker
-      - Syringe
-      - HandLabeler
       - LightTube
-      - LedLightTube
-      - SodiumLightTube
-      - ExteriorLightTube
       - LightBulb
-      - LedLightBulb
-      - Bucket
-      - DrinkMug
-      - DrinkMugMetal
-      - DrinkGlass
-      - DrinkShotGlass
-      - DrinkGlassCoupeShaped
-      - CustomDrinkJug
-      - FoodPlate
-      - FoodPlateSmall
-      - FoodPlatePlastic
-      - FoodPlateSmallPlastic
-      - FoodBowlBig
-      - FoodPlateTin
-      - FoodKebabSkewer
-      - SprayBottle
-      - MopItem
-      - Holoprojector
-      - Mousetrap
       - LightReplacer
-      - TrashBag
-      - PowerCellSmall
-      - PowerCellMedium
-      - RollerBedSpawnFolded
-      - CheapRollerBedSpawnFolded
-      - EmergencyRollerBedSpawnFolded
-      - MicroManipulatorStockPart
-      - MatterBinStockPart
-      - CapacitorStockPart
-      - ConveyorBeltAssembly
-      - IntercomElectronics
-      - FirelockElectronics
-      - DoorElectronics
-      - AirAlarmElectronics
-      - StationMapElectronics
-      - FireAlarmElectronics
-      - MailingUnitElectronics
-      - SignalTimerElectronics
-      - APCElectronics
-      - SMESMachineCircuitboard
-      - SubstationMachineCircuitboard
-      - WallmountSubstationElectronics
-      - CellRechargerCircuitboard
-      - BorgChargerCircuitboard
-      - WeaponCapacitorRechargerCircuitboard
-      - HandheldStationMap
-      - ClothingHeadHatWelding
-      - WetFloorSign
-      - ClothingHeadHatCone
+      - ClothingNeckBodycam
+      - UtilityBelt
+      - Pickaxe
+      - Jug
+      - MagazinePistolSubMachineGunTopMounted
+      - MagazineMagnumSubMachineGun
+      - MagazinePlasmaRifleFilled
+      - MagazineBoxPistol
+      - MagazineBoxMagnum
+      - MagazineBoxLightRifle
+      - PlasmaShell
+      - ShellShotgun
+      - HandheldCrewMonitor
+      - AppraisalTool
   - type: EmagLatheRecipes
     emagStaticRecipes:
       - BoxLethalshot

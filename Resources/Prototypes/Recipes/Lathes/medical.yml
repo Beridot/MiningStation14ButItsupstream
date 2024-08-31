@@ -241,3 +241,12 @@
   materials:
     Steel: 100
     Plastic: 100
+
+- type: latheRecipe
+  id: HandheldCrewMonitor
+  result: HandheldCrewMonitor
+  completetime: 2
+  materials:
+    Glass: 1200
+    Steel: 1000
+    Plastic: 1400
